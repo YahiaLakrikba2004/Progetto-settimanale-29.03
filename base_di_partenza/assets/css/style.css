@@ -168,8 +168,9 @@ a {
 
 .scroll-media {
   display: flex;
-  align-items: center;
+  align-items: normal;
   padding: 30px;
+  justify-content: center;
 }
 
 .scroll-media .card-header {
@@ -230,9 +231,16 @@ h2 {
 footer {
   display: flex;
   margin: auto;
+  margin-left: 400px;
 }
 
-.container3,
+.container3 {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: -300px;
+}
+
 .container4 {
   width: 50%;
   margin: auto;
