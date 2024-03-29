@@ -316,12 +316,9 @@
       let container = document.querySelector('.container')
 
       window.addEventListener('scroll', function () {
-        // Add class to change background color on scroll
         container.classList.add('bg-changed')
 
-        // Check if the user has scrolled to the top of the page
         if (window.scrollY === 0) {
-          // Remove class to revert background color when scrolling is at the top
           container.classList.remove('bg-changed')
         }
       })

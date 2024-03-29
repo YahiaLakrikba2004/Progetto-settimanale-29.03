@@ -27,6 +27,7 @@
   border-radius: 20px;
   padding: 10px;
   cursor: pointer;
+  border: 1px none black;
 }
 .container.bg-changed .barra button {
   background-color: #1a8917;
@@ -36,6 +37,7 @@
   list-style: none;
   display: flex;
   gap: 40px;
+  font-size: 20px;
 }
 
 a {
@@ -210,8 +212,8 @@ h2 {
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
-  border: 1px none #ccc;
-  border-radius: 5px;
+  border: 1px solid #000000;
+  border-radius: 30px;
   background-color: #ffffff;
   cursor: pointer;
   font-size: 20px;
